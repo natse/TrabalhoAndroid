@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecuperarSenhaActivity"
+    android:background="@drawable/imagemsenha"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtCadastrorGmail"
+        android:textColor="@color/preto"
+        android:textSize="5mm"
+        android:layout_marginTop="20dp"
+        android:text="Cadastror Senha"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtInformeGmail"
+        android:textColor="@color/preto"
+        android:textSize="3.2mm"
+        android:layout_marginTop="60mm"
+        android:layout_below="@id/TxtCadastrorGmail"
+        android:text="Informe um gmail ou número de telefone"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+    <EditText
+        android:layout_width="55mm"
+        android:layout_height="wrap_content"
+        android:id="@+id/EdtInformeGmail"
+        android:layout_centerHorizontal="true"
+        android:hint="Diginte Gmail ou Telefone"
+        android:textAlignment="center"
+        android:textColor="@color/preto"
+        android:background="@drawable/texbottonquadrado"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/TxtInformeGmail"
+        android:textSize="3mm">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnInformeGmail"
+        android:textColor="@color/preto"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/EdtInformeGmail"
+        android:textSize="3.5mm"
+        android:text="Enviar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/primeirobottan"
+        android:onClick="onClinkInformeGmail">
+    </Button>
+</RelativeLayout>

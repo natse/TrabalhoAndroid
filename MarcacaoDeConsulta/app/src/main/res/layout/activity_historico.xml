@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoricoActivity"
+    android:background="@drawable/primeiratela">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/TextHistoricoConsultas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Histórico da Consultas"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/preto"
+                android:layout_centerHorizontal="true"
+                android:textSize="4mm">
+            </TextView>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:id="@+id/ListHistoricoConsulta"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/TextHistoricoConsultas">
+            </ListView>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textSize="3mm"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:onClick="onClinkMenu"
+                android:textColor="@color/preto"
+                android:background="@drawable/primeirobottan"
+                android:layout_below="@id/ListHistoricoConsulta"
+                >
+            </Button>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

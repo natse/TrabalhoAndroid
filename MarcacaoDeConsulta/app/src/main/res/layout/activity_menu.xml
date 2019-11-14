@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/imgescola">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MenuMarcar"
+        android:onClick="onClinkMenuMarcarConsulta"
+        android:text="Marcar Nova Consulta"
+        android:textSize="4mm"
+        android:layout_marginTop="30mm"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bottonmarcar">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MenuHistorico"
+        android:text="Historicos"
+        android:onClick="onClinkMenuHistorico"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/MenuMarcar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bottonhistorico"
+        android:textSize="4mm">
+
+    </Button>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/MenuSair"
+       android:text="Sair"
+       android:background="@drawable/bottonsair"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="50dp"
+       android:layout_below="@id/MenuHistorico"
+       android:onClick="onClinkMenuSair"
+       android:textSize="4mm"
+       >
+   </Button>
+</RelativeLayout>
+

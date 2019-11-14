@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="preto">#F3101011</color>
+    <color name="letra">#696979</color>
+    <color name="letr">#F3101011</color>
+    <color name="sair">#DA110E</color>
+    <color name="marcar">#1F7CCE</color>
+    <color name="historico">#20C744</color>
+</resources>

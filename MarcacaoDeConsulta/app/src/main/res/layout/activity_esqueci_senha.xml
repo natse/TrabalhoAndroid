@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EsqueciSenhaActivity"
+    android:background="@drawable/imgescola">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEsqueciSenha"
+        android:text="Esqueci Senha"
+        android:textSize="4.5mm"
+        android:textColor="@color/preto"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDiginteSenha"
+        android:textColor="@color/preto"
+        android:textSize="4.3mm"
+        android:text="Diginte nova Senha"
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/txtEsqueciSenha"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+    <EditText
+        android:layout_width="55mm"
+        android:layout_height="wrap_content"
+        android:id="@+id/EdtDiginteSenha"
+        android:textSize="3.5mm"
+        android:hint="Diginte nova senha"
+        android:textAlignment="center"
+        android:background="@drawable/texbottonquadrado"
+        android:textColor="@color/preto"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtDiginteSenha"
+        android:layout_centerHorizontal="true">
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDiginteNovamentoSenha"
+        android:textColor="@color/preto"
+        android:text="Diginte novamento"
+        android:textSize="4.3mm"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/EdtDiginteSenha"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+    <EditText
+        android:layout_width="55mm"
+        android:layout_height="wrap_content"
+        android:id="@+id/EdtDiginteNovamentoSenha"
+        android:textColor="@color/preto"
+        android:hint="Diginte novamente"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/texbottonquadrado"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtDiginteNovamentoSenha">
+
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnEsqueciSenha2"
+        android:text="Cadastrar"
+        android:textSize="3.5mm"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/EdtDiginteNovamentoSenha"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClinkTelaInicial"
+        android:background="@drawable/primeirobottan">
+    </Button>
+</RelativeLayout>
