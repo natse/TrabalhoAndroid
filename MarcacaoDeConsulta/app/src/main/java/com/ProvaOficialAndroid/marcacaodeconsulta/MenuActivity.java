@@ -25,7 +25,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void onClinkMenuSair(View view) {
-        Intent menuSair = new Intent(this, TelaInicialActivity.class);
+        Intent menuSair = new Intent(this, LoginActivity.class);
         startActivity(menuSair);
     }
 }

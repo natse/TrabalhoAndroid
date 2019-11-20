@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.ProvaOficialAndroid.marcacaodeconsulta.R;
-
 public class EsqueciSenhaActivity extends AppCompatActivity {
 
     @Override
@@ -17,7 +15,7 @@ public class EsqueciSenhaActivity extends AppCompatActivity {
     }
 
     public void onClinkTelaInicial(View view) {
-        Intent telaInicial = new Intent( this, TelaInicialActivity.class);
+        Intent telaInicial = new Intent( this, LoginActivity.class);
         startActivity(telaInicial);
     }
 }

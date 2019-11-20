@@ -17,8 +17,4 @@ public class AgendaConsultaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_agenda_consulta);
     }
 
-    public void onClinkHistorico(View view) {
-        Intent historico = new Intent( this, HistoricoActivity.class);
-        startActivity(historico);
-    }
 }

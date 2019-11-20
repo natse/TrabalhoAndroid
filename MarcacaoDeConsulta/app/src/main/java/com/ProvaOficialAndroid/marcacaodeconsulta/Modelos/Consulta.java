@@ -1,5 +1,7 @@
 package com.ProvaOficialAndroid.marcacaodeconsulta.Modelos;
 
+import java.util.List;
+
 public class Consulta {
     public String getDescricao() {
         return descricao;
@@ -20,6 +22,17 @@ public class Consulta {
     private String descricao;
     private String valor;
     private Ubs ubs;
+
+    public List<Paciente> getPaciente() {
+        return paciente;
+    }
+
+    public void setPaciente(List<Paciente> paciente) {
+        this.paciente = paciente;
+    }
+
+    private List<Paciente> paciente;
+
 
     public Ubs getUbs() {
         return ubs;

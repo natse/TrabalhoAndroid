@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158189243390",
+    "firebase_url": "https://marcaconsulta-dd566.firebaseio.com",
+    "project_id": "marcaconsulta-dd566",
+    "storage_bucket": "marcaconsulta-dd566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158189243390:android:5ca5265768314156f60eaf",
+        "android_client_info": {
+          "package_name": "com.ProvaOficialAndroid.marcacaodeconsulta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158189243390-jkq33mfuq050l0lcaet40i7gb0tqrdpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ProvaOficialAndroid.marcacaodeconsulta",
+            "certificate_hash": "f7d53cdb704f1aef47afd8169fd1cbddf674118e"
+          }
+        },
+        {
+          "client_id": "158189243390-0j00pr6ivan8nup8kl4jeikkpod61cmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA08wio7r3HznbJTG44ERC49WzuiZj1LJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158189243390-0j00pr6ivan8nup8kl4jeikkpod61cmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

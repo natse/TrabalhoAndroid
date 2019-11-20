@@ -6,6 +6,17 @@ public class Especialidade {
     private int codigo;
     private String nome;
 
+    public List<Ubs> getUbs() {
+        return ubs;
+    }
+
+    public void setUbs(List<Ubs> ubs) {
+        this.ubs = ubs;
+    }
+
+    private List<Ubs> ubs;
+
+
     public List<Medico> getMedicos() {
         return medicos;
     }

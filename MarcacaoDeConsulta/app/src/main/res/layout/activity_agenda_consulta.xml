@@ -32,21 +32,23 @@
                 android:id="@+id/txtAdicinarInformacoes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Marcação de Consultas"
+                android:text="Informação da Consulta"
                 android:textSize="3.5mm"
                 android:textColor="@color/preto"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/calendarMarcacaoConsulta"
                 android:layout_marginTop="20dp">
             </TextView>
-            <ListView
+            <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="20mm"
                 android:id="@+id/ListInfomarcao"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/texbotton"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/txtAdicinarInformacoes">
-            </ListView>
+            </EditText>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

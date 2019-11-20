@@ -2,37 +2,27 @@ package com.ProvaOficialAndroid.marcacaodeconsulta.Modelos;
 
 import java.util.List;
 
-public class Medico {
+public class Medico extends Pessoa{
     private int codigo;
     private String crm;
-    private List<Especialidade> especialidades;
-    private List<Consulta>consultas;
+    private Especialidade especialidades;
 
-    public List<Consulta> getConsultas() {
-        return consultas;
+    public List<Ubs> getUbs() {
+        return ubs;
     }
 
-    public void setConsultas(List<Consulta> consultas) {
-        this.consultas = consultas;
+    public void setUbs(List<Ubs> ubs) {
+        this.ubs = ubs;
     }
 
-    public List<Especialidade> getEspecialidades() {
+    private List<Ubs> ubs;
+    public Especialidade getEspecialidades() {
         return especialidades;
     }
 
-    public void setEspecialidades(List<Especialidade> especialidades) {
+    public void setEspecialidades(Especialidade especialidades) {
         this.especialidades = especialidades;
     }
-
-    public Retorno getRetorno() {
-        return retorno;
-    }
-
-    public void setRetorno(Retorno retorno) {
-        this.retorno = retorno;
-    }
-
-    private Retorno retorno;
 
     public int getCodigo() {
         return codigo;

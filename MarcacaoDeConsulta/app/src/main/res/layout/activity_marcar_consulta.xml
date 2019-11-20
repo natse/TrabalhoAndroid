@@ -31,6 +31,7 @@
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:entries="@array/especilidade"
         android:layout_below="@id/txtAgendamentoDeConsultaEspecialidade"
         android:id="@+id/SpinBusca"
         android:layout_centerHorizontal="true"
@@ -55,6 +56,7 @@
         android:layout_below="@id/txtAgendamentoDeConsultaBusca"
         android:id="@+id/SpinEspecialidade"
         android:textSize="3.5mm"
+        android:entries="@array/postoSaude"
         android:layout_centerHorizontal="true"
         >
     </Spinner>
@@ -74,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="3.5mm"
+        android:entries="@array/medico"
         android:layout_below="@id/txtAgendamentoDeConsultaMedico"
         android:id="@+id/SpinMedico"
         android:layout_centerHorizontal="true"

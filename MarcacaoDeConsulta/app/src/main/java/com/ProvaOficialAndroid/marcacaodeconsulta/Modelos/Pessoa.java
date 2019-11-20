@@ -20,14 +20,6 @@ public class Pessoa {
         this.especidade = especidade;
     }
 
-    public String getCome() {
-        return come;
-    }
-
-    public void setCome(String come) {
-        this.come = come;
-    }
-
     public String getProfissao() {
         return profissao;
     }
@@ -52,7 +44,6 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    private String come;
     private String profissao;
     private String rg;
     private char sexo;

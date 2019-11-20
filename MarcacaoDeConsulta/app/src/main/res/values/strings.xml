@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">MarcacaoDeConsulta</string>
+    <string-array name="especilidade">
+        <item>Cirurgia Geral</item>
+        <item>Coloproctologia</item>
+        <item>Endoscopia</item>
+        <item>Mastologia</item>
+    </string-array>
+    <string-array name="postoSaude">
+        <item>Posto Bodanese</item>
+        <item>Consultório Dentário El Dourado</item>
+        <item>Posto de Saúde Belmont Porto Velho</item>
+        <item>Posto Miguel Chakian</item>
+    </string-array>
+    <string-array name="medico">
+        <item>Francisco</item>
+        <item>Oezio</item>
+        <item>Bruno</item>
+        <item>Yan</item>
+    </string-array>
 </resources>

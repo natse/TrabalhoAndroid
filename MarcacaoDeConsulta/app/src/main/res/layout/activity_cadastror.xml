@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaCadastrorActivity"
+    tools:context=".CadastrorActivity"
     android:background="@drawable/primeiratela">
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
     <EditText
         android:layout_width="55mm"
         android:layout_height="wrap_content"
-        android:id="@+id/EdtSenha"
+        android:id="@+id/EditCadastror"
         android:hint="Diginte código ou CPF"
         android:textAlignment="center"
         android:background="@drawable/texbottonquadrado"
@@ -56,7 +56,7 @@
         android:textSize="4mm"
         android:layout_centerHorizontal="true"
         android:text="Criar Senha"
-        android:layout_below="@id/EdtSenha"
+        android:layout_below="@id/EditCadastror"
         android:layout_marginTop="20dp"
         android:textColor="@color/preto"
         >
@@ -65,50 +65,50 @@
     <EditText
         android:layout_width="55mm"
         android:layout_height="wrap_content"
-        android:id="@+id/EdtCriarSenha"
+        android:id="@+id/EditCriarSenha"
         android:hint="Diginte uma senha"
         android:textAlignment="center"
+        android:inputType="textPassword"
         android:background="@drawable/texbottonquadrado"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/txtCriarSenha"
         android:layout_marginTop="5dp"
         >
     </EditText>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtDiginteNovamento"
-        android:layout_centerHorizontal="true"
-        android:text="Diginte novamente"
-        android:textSize="4mm"
-        android:layout_below="@id/EdtCriarSenha"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/preto"
-        >
-    </TextView>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/txtDiginteNovamento"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="Diginte novamente"-->
+<!--        android:textSize="4mm"-->
+<!--        android:layout_below="@id/EditCriarSenha"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textColor="@color/preto"-->
+<!--        >-->
+<!--    </TextView>-->
 
-    <EditText
-        android:layout_width="55mm"
-        android:layout_height="wrap_content"
-        android:id="@+id/EdtDiginteNovamento"
-        android:hint="Diginte novamente"
-        android:textAlignment="center"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/texbottonquadrado"
-        android:layout_below="@id/txtDiginteNovamento"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/preto"
-        >
-    </EditText>
+<!--    <EditText-->
+<!--        android:layout_width="55mm"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/EditCadastrorDiginteNovamento"-->
+<!--        android:hint="Diginte novamente"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/texbottonquadrado"-->
+<!--        android:layout_below="@id/txtDiginteNovamento"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColor="@color/preto"-->
+<!--        >-->
+<!--    </EditText>-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/BtnCadastrarSenha"
+        android:id="@+id/BtnCadastrarLogin"
         android:text="Cadastrar"
         android:textSize="3mm"
-        android:onClick="onClinkTelaInicialCadastror"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/EdtDiginteNovamento"
+        android:layout_below="@id/EditCriarSenha"
         android:layout_marginTop="20dp"
         android:background="@drawable/primeirobottan"
         >

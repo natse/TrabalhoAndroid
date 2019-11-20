@@ -2,9 +2,8 @@ package com.ProvaOficialAndroid.marcacaodeconsulta.Modelos;
 
 import java.util.List;
 
-public class Secretaria {
+public class Secretaria extends Pessoa{
     private String matricula;
-
 
     public List<Consulta> getConsultas() {
         return consultas;

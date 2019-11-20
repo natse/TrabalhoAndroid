@@ -1,16 +1,17 @@
 package com.ProvaOficialAndroid.marcacaodeconsulta.Modelos;
 
-public class Paciente {
+public class Paciente extends Pessoa {
     private int nomeMae;
-    private Login login;
 
-    public Login getLogin() {
-        return login;
+    public Consulta getConsulta() {
+        return consulta;
     }
 
-    public void setLogin(Login login) {
-        this.login = login;
+    public void setConsulta(Consulta consulta) {
+        this.consulta = consulta;
     }
+
+    private Consulta consulta;
 
     public int getNomeMae() {
         return nomeMae;
